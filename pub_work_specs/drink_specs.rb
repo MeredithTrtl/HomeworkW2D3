@@ -21,9 +21,9 @@ class DrinkTest < MiniTest::Test
     @customer = Customer.new("Keith", 20, 46)
   end
 
-def test_return_bev
-  assert_equal("beer", @drink1.name)
-end
+  def test_return_bev
+    assert_equal("beer", @drink1.name)
+  end
 
 
 end

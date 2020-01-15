@@ -14,14 +14,4 @@ class Pub
     return @til += amount
   end
 
-
-  # def choose_drink(name)
-  #   for drink in @drinks
-  #     if drink.name = name
-  #       return drink
-  #     end
-  #   end
-  #   return nil
-  # end
-
 end
